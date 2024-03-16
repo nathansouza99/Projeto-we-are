@@ -1,0 +1,150 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.header {
+
+    margin: 44px 0 144px 76px
+}
+
+
+.Link-header {
+
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+
+}
+
+.button-header {
+
+    background: #665AE1;
+    border-radius: 22px;
+    cursor: pointer;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600px;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFF;
+}
+
+
+.logo-imge {
+
+    width: 450px;
+    margin-left: 125px;
+    display: inline-block;
+    height: 300px
+}
+
+.principal {
+
+    display: inline-block;
+    margin-left: 86px;
+    margin-top: -75px;
+    top: 50%
+    
+}
+
+h1 {
+
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+    right: 130%;
+
+}
+
+h2 {
+
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+
+}
+
+.paragrafo {
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px; 
+    
+}
+
+.button {
+
+    background: #adff00;
+    border-radius: 30px;
+    width: 239px;
+    height: 64px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0,0,00.25));
+    font-size: 700px;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    
+
+    }
+
+    @media screen and (max-width:900px) {
+        .principal {
+          width: 100%;
+          height: 50%;
+          padding: 0;
+          margin: 0;
+        }
+      
+        .header,
+        .paragrafo {
+          display: none;
+        }
+      
+        h1 {
+          width: 263px;
+          font-size: 50px;
+          line-height: 61px;
+          margin: 0 auto;
+      
+        }
+      
+        h2 {
+          font-size: 30px;
+          line-height: 37px;
+          width: 100%;
+          margin-left: 20%;
+          height: 37px;
+          margin: 0 auto;
+          margin-bottom: 17px;
+        }
+      
+        .logo-imge {
+      
+          margin: 140px auto 25px auto;
+          display: block;
+          width: 354px;
+          height: 317px;
+        }
+      
+      
+        button {
+          display: block;
+          margin: 0 auto;
+        }
+      }
